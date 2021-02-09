@@ -14,6 +14,10 @@ node {
        stage('test') {
        sh 'mvn test'
 
+    }   
+       stage('validate') {
+       sh 'validate'
+
     }
        stage('package') {
        sh 'mvn package'
