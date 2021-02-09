@@ -1,7 +1,7 @@
 node {
     
       stage('git clone') {
-      git 'https://github.com/santhosh007e/newrepo.git'
+      git 'https://github.com/santhosh007e/rh.git'
           
       }
        stage('clean') {
